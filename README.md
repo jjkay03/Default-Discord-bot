@@ -1,2 +1,3 @@
-# default-Discord-bot
-The default start for a Discord bot project
+# Default Discord Bot
+
+Here you can find the default code you will need to start a Discord.py bot project.
