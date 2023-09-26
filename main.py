@@ -4,8 +4,8 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import check
 
-#Bot prefix
-client = commands.Bot(command_prefix = ".")
+intents = discord.Intents.default(); intents.message_content=True; intents.members=True
+client = commands.Bot(command_prefix = "!", intents=intents)
 #Bot token will be read from "TOKEN.txt"
 TOKEN = open("TOKEN.txt", "r").read()
 
